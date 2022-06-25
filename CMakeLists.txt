@@ -5,5 +5,3 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(IOT_Controller_BLE)
 
 target_sources(app PRIVATE src/main.c)
-
-

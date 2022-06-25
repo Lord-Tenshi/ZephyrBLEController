@@ -1,0 +1,10 @@
+/ {
+     chosen {
+             bt,device = &usart1;
+     };
+
+};
+
+	&usart1 {
+		current-speed = <9600>;
+};
